@@ -27,6 +27,7 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("팀장 Test Servlet");
+		System.out.println("hotfix 충돌테스트");
 		System.out.println("팀장 충돌테스트");
 		
 	}
